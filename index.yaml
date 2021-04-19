@@ -602,6 +602,16 @@ entries:
   ibm-catalogs:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2021-04-19T17:34:34.92043432Z"
+    description: A Helm chart for IBM Catalog Sources
+    digest: 94c9a95678b45774b5f053b387d8a568a69d7629b3262d473112592cfe89ac71
+    name: ibm-catalogs
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-catalogs-0.2.0/ibm-catalogs-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2021-04-19T17:18:15.953026996Z"
     description: A Helm chart for Kubernetes
     digest: b9fcbd5c78e6a8c919329d72e13b1196a26b267e73c577cad649a592a5a2df69
@@ -611,6 +621,16 @@ entries:
     - https://github.com/hollisc/toolkit-charts/releases/download/ibm-catalogs-0.1.0/ibm-catalogs-0.1.0.tgz
     version: 0.1.0
   ibm-common-services:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-04-19T17:34:35.052281986Z"
+    description: A Helm chart for Kubernetes
+    digest: 02cf680b2e7aec08bba780d9b2b4475c57515f0011b252df9958dbee37bb5d8f
+    name: ibm-common-services
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-common-services-0.2.0/ibm-common-services-0.2.0.tgz
+    version: 0.2.0
   - apiVersion: v2
     appVersion: "1.0"
     created: "2021-04-19T17:18:16.105230728Z"
@@ -632,6 +652,39 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/ibm-cp-integration-base-0.1.0/ibm-cp-integration-base-0.1.0.tgz
     version: 0.1.0
+  ibm-cp4i-operators:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-19T17:34:35.171682325Z"
+    description: A Helm chart for IBM Cloud Pak for Integration operator
+    digest: b4c0b3fa775a4b49ce75642f11c6953728910be99e47f5c8fdca0366cab3acd5
+    name: ibm-cp4i-operators
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-cp4i-operators-0.2.0/ibm-cp4i-operators-0.2.0.tgz
+    version: 0.2.0
+  ibm-mq-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-19T17:34:35.279821514Z"
+    description: A Helm chart for IBM MQ operator
+    digest: 1a4138fefd1e293b60ed0cb275ebc6097e468ef03e490c7c786cebf3ef5fd822
+    name: ibm-mq-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-mq-operator-0.2.3/ibm-mq-operator-0.2.3.tgz
+    version: 0.2.3
+  ibm-platform-navigator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-19T17:34:35.384601581Z"
+    description: A Helm chart for IBM Platform Navigator operator
+    digest: 4eb6a5a82ee26a1844af3689e7493d4e0db5c7442a83cb97bcaee4656a71cc6f
+    name: ibm-platform-navigator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-platform-navigator-0.2.0/ibm-platform-navigator-0.2.0.tgz
+    version: 0.2.0
   ibmcloud:
   - apiVersion: v2
     appVersion: "1.0"
@@ -1045,6 +1098,17 @@ entries:
     type: application
     urls:
     - https://github.com/ibm-garage-cloud/toolkit-charts/releases/download/refarch-machinesets-0.1.0/refarch-machinesets-0.1.0.tgz
+    version: 0.1.0
+  sealed-secrets-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-19T17:34:35.481481022Z"
+    description: A Helm chart for Kubernetes
+    digest: 65445835ab29e16cd8efba86182f7e45bb6471a3ae1427b1209a2a09d2cb924f
+    name: sealed-secrets-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/sealed-secrets-operator-0.1.0/sealed-secrets-operator-0.1.0.tgz
     version: 0.1.0
   service-account:
   - apiVersion: v2

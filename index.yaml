@@ -551,6 +551,16 @@ entries:
   elasticsearch-operator:
   - apiVersion: v2
     appVersion: 1.17.0
+    created: "2021-04-19T17:18:15.805000864Z"
+    description: A Helm chart for Kubernetes
+    digest: 45c9aee8a7dee1f868b58862def4f89052cfada26ee2088040fcfbcd03e8205f
+    name: elasticsearch-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/elasticsearch-operator-0.6.0/elasticsearch-operator-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    appVersion: 1.17.0
     created: "2021-03-17T00:52:44.102480045Z"
     description: A Helm chart for Kubernetes
     digest: 07e4393864179f0457594dbc5e082c8cc1bc055d652e6297801ca06e415f0a06
@@ -588,6 +598,39 @@ entries:
     type: application
     urls:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/elasticsearch-operator-0.1.0.tgz
+    version: 0.1.0
+  ibm-catalogs:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-04-19T17:18:15.953026996Z"
+    description: A Helm chart for Kubernetes
+    digest: b9fcbd5c78e6a8c919329d72e13b1196a26b267e73c577cad649a592a5a2df69
+    name: ibm-catalogs
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-catalogs-0.1.0/ibm-catalogs-0.1.0.tgz
+    version: 0.1.0
+  ibm-common-services:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-04-19T17:18:16.105230728Z"
+    description: A Helm chart for Kubernetes
+    digest: c7978e9815c19bd43d1101852a1dd19ab1effd2950dd8621ff7ca7099dcf59f6
+    name: ibm-common-services
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-common-services-0.1.0/ibm-common-services-0.1.0.tgz
+    version: 0.1.0
+  ibm-cp-integration-base:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-04-19T17:18:16.25840446Z"
+    description: A Helm chart for Kubernetes
+    digest: 1e6735ee103b21657264994454972a8df9f1e34f4848a1b99c16acab9d2e7335
+    name: ibm-cp-integration-base
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-cp-integration-base-0.1.0/ibm-cp-integration-base-0.1.0.tgz
     version: 0.1.0
   ibmcloud:
   - apiVersion: v2
@@ -755,6 +798,16 @@ entries:
   jaeger-operator:
   - apiVersion: v2
     appVersion: 1.19.0
+    created: "2021-04-19T17:18:16.414633088Z"
+    description: A Helm chart to install Jaeger via the operator
+    digest: 8b9ecc8e13041ed20025b958d78f67740e31c4fbf017657d8d2400c26b9e3730
+    name: jaeger-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/jaeger-operator-0.10.0/jaeger-operator-0.10.0.tgz
+    version: 0.10.0
+  - apiVersion: v2
+    appVersion: 1.19.0
     created: "2021-03-17T00:52:44.21384463Z"
     description: A Helm chart to install Jaeger via the operator
     digest: da574078fb9bc4673de9f6c3190c2e9c590a4110ead7aee447732aaa5610b997
@@ -824,6 +877,16 @@ entries:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/jaeger-operator-0.1.0.tgz
     version: 0.1.0
   kiali-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-19T17:18:16.571033721Z"
+    description: A Helm chart for Kubernetes
+    digest: 5423859a02ff9e0d24e6337f8ece02d0fa2ecf31d70d95387cba4a38da245c41
+    name: kiali-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/kiali-operator-0.4.0/kiali-operator-0.4.0.tgz
+    version: 0.4.0
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2020-10-28T17:25:17.886354286Z"
@@ -963,6 +1026,17 @@ entries:
   refarch-machinesets:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2021-04-19T17:18:16.77324491Z"
+    description: A Helm chart for deploying infrastrucure reference architecture to
+      OpenShift 4.x clusters
+    digest: 6d80b0dc03090245aa2a67b5736f81b3cca035f8de796d860f129b75ff670d36
+    name: refarch-machinesets
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/refarch-machinesets-0.1.1/refarch-machinesets-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2021-03-16T19:27:36.892920356Z"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
@@ -1084,6 +1158,16 @@ entries:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/service-account-0.1.0.tgz
     version: 0.1.0
   service-mesh-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-19T17:18:16.899014935Z"
+    description: A Helm chart for Kubernetes
+    digest: 4cb4243657393b9440e063f858a18b360509f5548f3cd6ba1b44ea53ba315a57
+    name: service-mesh-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/service-mesh-operator-0.6.0/service-mesh-operator-0.6.0.tgz
+    version: 0.6.0
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2020-10-28T17:25:17.900651337Z"

@@ -289,6 +289,17 @@ entries:
     urls:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/argocd-config-0.1.0.tgz
     version: 0.1.0
+  argocd-hook-job:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-05T20:28:59.333067115Z"
+    description: A Helm chart for Kubernetes
+    digest: 0c8410ee786f7deadfd1caab4d99517d954311ca9a0d2ece18625a3d68105d4b
+    name: argocd-hook-job
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/argocd-hook-job-0.1.1/argocd-hook-job-0.1.1.tgz
+    version: 0.1.1
   argocd-operator:
   - apiVersion: v2
     appVersion: 0.0.9

@@ -480,6 +480,15 @@ entries:
   developer-dashboard:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2021-05-10T18:37:20.785975676Z"
+    description: A Helm chart for Kubernetes
+    digest: c591e86daec821a04a54f139b34f6f8ebd5a97053901d2867389062291c1c711
+    name: developer-dashboard
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/developer-dashboard-1.2.2/developer-dashboard-1.2.2.tgz
+    version: 1.2.2
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2020-10-28T17:25:17.867426147Z"
     description: A Helm chart for Kubernetes
     digest: 8c4ab36da0de353accfb7805cbad40f922c25aaf9ab06f6fecc432c0c9e451e2

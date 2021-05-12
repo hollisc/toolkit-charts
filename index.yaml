@@ -629,7 +629,61 @@ entries:
     urls:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/elasticsearch-operator-0.1.0.tgz
     version: 0.1.0
+  ibm-ace-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-12T19:01:50.945439305Z"
+    description: A Helm chart for Kubernetes
+    digest: 4a834509207db5b5b60d31f89ec4b3952d6826c62a55cc02da39d9a07717a24e
+    name: ibm-ace-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-ace-operator-0.2.2/ibm-ace-operator-0.2.2.tgz
+    version: 0.2.2
+  ibm-apic-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-12T19:01:51.04649442Z"
+    description: A Helm chart for Kubernetes
+    digest: 8cb98c65ed226c8440f42354f09f4414fef18af10e5065eb537c8b801172fc77
+    name: ibm-apic-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-apic-operator-0.1.0/ibm-apic-operator-0.1.0.tgz
+    version: 0.1.0
+  ibm-aspera-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-12T19:01:51.148982662Z"
+    description: A Helm chart for Kubernetes
+    digest: ffadf8a2ebc35023a23153dacfff0214d64debb162524eb47af56955ff57b736
+    name: ibm-aspera-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-aspera-operator-0.1.0/ibm-aspera-operator-0.1.0.tgz
+    version: 0.1.0
+  ibm-assetrepository-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-12T19:01:51.256919207Z"
+    description: A Helm chart for Kubernetes
+    digest: 2bc35c55ea51a6058bd90d9ec4954a0156814c64dccb7ef32b3944b6938e793c
+    name: ibm-assetrepository-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-assetrepository-operator-0.1.0/ibm-assetrepository-operator-0.1.0.tgz
+    version: 0.1.0
   ibm-catalogs:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-05-12T19:01:51.359529752Z"
+    description: A Helm chart for Kubernetes
+    digest: a6dc1c13dac683fb0a3cd47cbe87f6244e4f4fdae8ca5f632e7a499e8b75ce82
+    name: ibm-catalogs
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-catalogs-0.2.1/ibm-catalogs-0.2.1.tgz
+    version: 0.2.1
   - apiVersion: v2
     appVersion: "1.0"
     created: "2021-04-19T17:34:34.92043432Z"
@@ -651,6 +705,16 @@ entries:
     - https://github.com/hollisc/toolkit-charts/releases/download/ibm-catalogs-0.1.0/ibm-catalogs-0.1.0.tgz
     version: 0.1.0
   ibm-common-services:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-05-12T19:01:51.45651999Z"
+    description: A Helm chart for Kubernetes
+    digest: c3907a3b21f561c8839ddefdaeefad427356a4fb26416a2b3ac3bc69f0573b59
+    name: ibm-common-services
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-common-services-0.2.1/ibm-common-services-0.2.1.tgz
+    version: 0.2.1
   - apiVersion: v2
     appVersion: "1.0"
     created: "2021-04-19T17:34:35.052281986Z"
@@ -685,6 +749,16 @@ entries:
   ibm-cp4i-operators:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-05-12T19:01:51.570793055Z"
+    description: A Helm chart for Kubernetes
+    digest: c62a58e926072dc3db351663bc2484cf2d2fb71f28d7e7338ab25f2d54ee66ad
+    name: ibm-cp4i-operators
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-cp4i-operators-0.2.2/ibm-cp4i-operators-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-04-19T17:34:35.171682325Z"
     description: A Helm chart for IBM Cloud Pak for Integration operator
     digest: b4c0b3fa775a4b49ce75642f11c6953728910be99e47f5c8fdca0366cab3acd5
@@ -693,7 +767,39 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/ibm-cp4i-operators-0.2.0/ibm-cp4i-operators-0.2.0.tgz
     version: 0.2.0
+  ibm-datapower-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-12T19:01:51.672495183Z"
+    description: A Helm chart for Kubernetes
+    digest: a6a2fc71ff4c7ae0b57e2db9703eac0c6930bf4f0f43f10a9c26be1022888496
+    name: ibm-datapower-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-datapower-operator-0.1.0/ibm-datapower-operator-0.1.0.tgz
+    version: 0.1.0
+  ibm-eventstreams-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-12T19:01:51.777677076Z"
+    description: A Helm chart for Kubernetes
+    digest: 918dc011859bc417bac75efaf9aa094a6d7696bf36923d7449952632252d8a4d
+    name: ibm-eventstreams-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-eventstreams-operator-0.1.0/ibm-eventstreams-operator-0.1.0.tgz
+    version: 0.1.0
   ibm-mq-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-12T19:01:51.883395279Z"
+    description: A Helm chart for Kubernetes
+    digest: 46a0daba80fa38635e30921a2151c35533c0c9192e483071b4395036960b5df6
+    name: ibm-mq-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-mq-operator-0.2.4/ibm-mq-operator-0.2.4.tgz
+    version: 0.2.4
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2021-04-19T17:34:35.279821514Z"
@@ -704,7 +810,28 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/ibm-mq-operator-0.2.3/ibm-mq-operator-0.2.3.tgz
     version: 0.2.3
+  ibm-opsdashboard-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-12T19:01:52.000125091Z"
+    description: A Helm chart for Kubernetes
+    digest: 312522680bb7684023d7dac90a707700390c8944d00a9e7b42789156b7310463
+    name: ibm-opsdashboard-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-opsdashboard-operator-0.1.0/ibm-opsdashboard-operator-0.1.0.tgz
+    version: 0.1.0
   ibm-platform-navigator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-12T19:01:52.104813575Z"
+    description: A Helm chart for Kubernetes
+    digest: 3d51ab75556d629e5866e317871f5ace45ac1d4edc5d09389395dd99efb74761
+    name: ibm-platform-navigator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-platform-navigator-0.2.1/ibm-platform-navigator-0.2.1.tgz
+    version: 0.2.1
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2021-04-19T17:34:35.384601581Z"

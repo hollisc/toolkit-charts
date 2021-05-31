@@ -1005,6 +1005,17 @@ entries:
     urls:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/ibmcloud-service-0.1.0.tgz
     version: 0.1.0
+  instana-agent-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-31T18:29:32.048563911Z"
+    description: A Helm chart for Kubernetes
+    digest: 1e556ddc93d11a91f7ba9c12361fc1dbbdae24d2226c1181d36d1a3933d00012
+    name: instana-agent-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/instana-agent-operator-0.1.2/instana-agent-operator-0.1.2.tgz
+    version: 0.1.2
   iteration-zero:
   - apiVersion: v2
     appVersion: 0.7.0-lite

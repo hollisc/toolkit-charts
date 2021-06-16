@@ -663,6 +663,17 @@ entries:
     urls:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/elasticsearch-operator-0.1.0.tgz
     version: 0.1.0
+  grafana-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-16T17:20:33.557331359Z"
+    description: A Helm chart for Kubernetes
+    digest: 90933d5d08013f241c743b53b7f00277b27d669b0ba7811d9c124ca963f870a3
+    name: grafana-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/grafana-operator-0.1.0/grafana-operator-0.1.0.tgz
+    version: 0.1.0
   ibm-ace-operator:
   - apiVersion: v2
     appVersion: 1.16.0

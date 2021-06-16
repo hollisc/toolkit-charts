@@ -3,6 +3,18 @@ entries:
   argocd-config:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-06-16T17:19:05.619678912Z"
+    description: Helm chart to create ArgoCD custom resources for projects and applications
+      with optional RBAC configuration to allow ArgoCD to create resources in other
+      namespaces
+    digest: 1cf1182fe51399f64cf6ed67ea93af0a7ed105869032bdac16ce8e6bc846e541
+    name: argocd-config
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/argocd-config-0.18.2/argocd-config-0.18.2.tgz
+    version: 0.18.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-05-31T18:24:59.374686834Z"
     description: Helm chart to create ArgoCD custom resources for projects and applications
       with optional RBAC configuration to allow ArgoCD to create resources in other
@@ -323,6 +335,16 @@ entries:
     - https://github.com/hollisc/toolkit-charts/releases/download/argocd-hook-job-0.1.1/argocd-hook-job-0.1.1.tgz
     version: 0.1.1
   argocd-operator:
+  - apiVersion: v2
+    appVersion: 0.4.0
+    created: "2021-06-16T17:19:05.728938211Z"
+    description: A Helm chart to install ArgoCD via the operator
+    digest: 9e04bbd7debc4e365dce2b033b485f4077b72ad048aad118dd233b7492a31d71
+    name: argocd-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/argocd-operator-0.4.0/argocd-operator-0.4.0.tgz
+    version: 0.4.0
   - apiVersion: v2
     appVersion: 0.0.9
     created: "2020-10-28T17:25:17.80562443Z"
@@ -1255,6 +1277,17 @@ entries:
     urls:
     - https://github.com/ibm-garage-cloud/toolkit-charts/releases/download/ocs-operator-0.1.0/ocs-operator-0.1.0.tgz
     version: 0.1.0
+  openshift-gitops:
+  - apiVersion: v2
+    appVersion: 0.4.0
+    created: "2021-06-16T17:19:05.835730976Z"
+    description: A Helm chart to install ArgoCD via the operator
+    digest: ff06ea308d7ac29ada3037e4fb0b4608ca83e81f789e1888dbf37c1199460905
+    name: openshift-gitops
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/openshift-gitops-0.4.0/openshift-gitops-0.4.0.tgz
+    version: 0.4.0
   refarch-infraconfig:
   - apiVersion: v2
     appVersion: 0.1.0

@@ -3,6 +3,18 @@ entries:
   argocd-config:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-08-11T17:02:23.856999843Z"
+    description: Helm chart to create ArgoCD custom resources for projects and applications
+      with optional RBAC configuration to allow ArgoCD to create resources in other
+      namespaces
+    digest: 1163c7bbacfa2e4f60e782077644371f9285e9cebafc1c2915bc96de4f0d6601
+    name: argocd-config
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/argocd-config-0.19.0/argocd-config-0.19.0.tgz
+    version: 0.19.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-06-16T17:19:05.619678912Z"
     description: Helm chart to create ArgoCD custom resources for projects and applications
       with optional RBAC configuration to allow ArgoCD to create resources in other
@@ -500,6 +512,18 @@ entries:
     urls:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/cloud-setup-0.1.0.tgz
     version: 0.1.0
+  console-link-cronjob:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2021-08-11T17:02:23.982362903Z"
+    description: A Helm chart to generate a cron job that watches Routes for annotations
+      and generates ConsoleLinks if they are present
+    digest: 051da1639d88c01d019c39c0e6f002f707fd296a4c8aa548b0ced985a99d13e5
+    name: console-link-cronjob
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/console-link-cronjob-0.4.0/console-link-cronjob-0.4.0.tgz
+    version: 0.4.0
   cp-platform-navigator:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -512,6 +536,15 @@ entries:
     - https://github.com/ibm-garage-cloud/toolkit-charts/releases/download/cp-platform-navigator-0.1.0/cp-platform-navigator-0.1.0.tgz
     version: 0.1.0
   developer-dashboard:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-08-11T17:02:24.089901218Z"
+    description: A Helm chart for Kubernetes
+    digest: f005165532a8747096f11ade9a27b71a7ea8549acc44be92a9dec20863d0f8f4
+    name: developer-dashboard
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/developer-dashboard-1.3.1/developer-dashboard-1.3.1.tgz
+    version: 1.3.1
   - apiVersion: v1
     appVersion: "1.0"
     created: "2021-05-10T18:37:20.785975676Z"
@@ -721,6 +754,16 @@ entries:
   ibm-catalogs:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2021-08-11T17:02:24.230886182Z"
+    description: A Helm chart for Kubernetes
+    digest: 5750d869c862d356e26ef3d77dea62e45f9cc7d7a993b9e451c23b78740fc8c8
+    name: ibm-catalogs
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-catalogs-0.2.2/ibm-catalogs-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2021-05-12T19:01:51.359529752Z"
     description: A Helm chart for Kubernetes
     digest: a6dc1c13dac683fb0a3cd47cbe87f6244e4f4fdae8ca5f632e7a499e8b75ce82
@@ -887,6 +930,28 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/ibm-platform-navigator-0.2.0/ibm-platform-navigator-0.2.0.tgz
     version: 0.2.0
+  ibm-process-mining-operator:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-08-11T17:02:24.346786534Z"
+    description: A Helm chart for Kubernetes
+    digest: e15d7afa8eb9cb220df717998debcd035acda48235c80cc7c19cf266808100c6
+    name: ibm-process-mining-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-process-mining-operator-0.1.0/ibm-process-mining-operator-0.1.0.tgz
+    version: 0.1.0
+  ibm-toolkit-install:
+  - apiVersion: v2
+    appVersion: v14
+    created: "2021-08-11T17:02:24.474792964Z"
+    description: A Helm chart for Kubernetes
+    digest: 75180c1aefe3510335b17543eeafab6b13b0db5c0854966ec6631f0553d92204
+    name: ibm-toolkit-install
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-toolkit-install-0.2.1/ibm-toolkit-install-0.2.1.tgz
+    version: 0.2.1
   ibmcloud:
   - apiVersion: v2
     appVersion: "1.0"
@@ -1237,6 +1302,16 @@ entries:
   ocp-route:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-08-11T17:02:24.585794701Z"
+    description: A Helm chart for Kubernetes
+    digest: bfe44ca2279aef8a6b89ff568b868ad93143db2b3e2cd4d4999d9500ccbbdd7d
+    name: ocp-route
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ocp-route-0.4.0/ocp-route-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2020-10-28T17:25:17.888084316Z"
     description: A Helm chart for Kubernetes
     digest: b1dfa1fc0a54dba418d9a0be460cb8ac66c8f21cb4802da8526658517486de67
@@ -1291,6 +1366,16 @@ entries:
   openshift-gitops:
   - apiVersion: v2
     appVersion: 0.4.0
+    created: "2021-08-11T17:02:24.713419007Z"
+    description: A Helm chart to install ArgoCD via the operator
+    digest: 42f271c91178f2316b2d6275defea8ed68515a25dba4705ee857eda107bb1dc3
+    name: openshift-gitops
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/openshift-gitops-0.7.0/openshift-gitops-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    appVersion: 0.4.0
     created: "2021-06-16T17:19:05.835730976Z"
     description: A Helm chart to install ArgoCD via the operator
     digest: ff06ea308d7ac29ada3037e4fb0b4608ca83e81f789e1888dbf37c1199460905
@@ -1299,6 +1384,28 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/openshift-gitops-0.4.0/openshift-gitops-0.4.0.tgz
     version: 0.4.0
+  openshift-serverless:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-08-11T17:02:24.836857243Z"
+    description: A Helm chart for Kubernetes
+    digest: 8fd172fadcc1539fe605a251131f89d71c7b43d56ae1c76f134bc54dd5b676b2
+    name: openshift-serverless
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/openshift-serverless-0.1.1/openshift-serverless-0.1.1.tgz
+    version: 0.1.1
+  pact-broker:
+  - apiVersion: v2
+    appVersion: 2.50.1-1
+    created: "2021-08-11T17:02:24.963636095Z"
+    description: A Helm chart for Kubernetes
+    digest: de167d91f7b13f9e495343a71eb6995b573dca96be1f92875ccf28ea39a454d6
+    name: pact-broker
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/pact-broker-0.2.0/pact-broker-0.2.0.tgz
+    version: 0.2.0
   refarch-infraconfig:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -1650,6 +1757,17 @@ entries:
     urls:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/setup-job-0.1.0.tgz
     version: 0.1.0
+  slack-notifications:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-08-11T17:02:25.072645003Z"
+    description: A Helm chart for Kubernetes
+    digest: 475d2ba6d3bd6126de594e49ade0ef673d241af2ee513bb0df341d5b3d66bd92
+    name: slack-notifications
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/slack-notifications-0.1.7/slack-notifications-0.1.7.tgz
+    version: 0.1.7
   starter-kit:
   - apiVersion: v2
     appVersion: 0.6.0
@@ -1829,6 +1947,16 @@ entries:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/tekton-operator-0.1.0.tgz
     version: 0.1.0
   tool-config:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-08-11T17:02:25.197862154Z"
+    description: A Helm chart to create a ConfigMap and Secret containing the configuration
+      information for a deployed tool
+    digest: 510fe5e8931ffda72489ac630ac3b2364ab437146dc68de8c3fdc77b9c171a42
+    name: tool-config
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/tool-config-0.11.2/tool-config-0.11.2.tgz
+    version: 0.11.2
   - apiVersion: v1
     appVersion: "1.0"
     created: "2021-05-31T18:24:59.795012774Z"

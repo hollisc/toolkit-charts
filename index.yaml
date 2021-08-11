@@ -823,6 +823,17 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/ibm-common-services-0.1.0/ibm-common-services-0.1.0.tgz
     version: 0.1.0
+  ibm-common-services-instance:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-08-11T20:22:26.608511478Z"
+    description: A Helm chart for Kubernetes
+    digest: 6ef789e32db4e99fa5fa94532bd0bb62850c9c0eaa749e47234a8515da802953
+    name: ibm-common-services-instance
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-common-services-instance-0.1.0/ibm-common-services-instance-0.1.0.tgz
+    version: 0.1.0
   ibm-cp-integration-base:
   - apiVersion: v2
     appVersion: "1.0"
@@ -930,6 +941,17 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/ibm-platform-navigator-0.2.0/ibm-platform-navigator-0.2.0.tgz
     version: 0.2.0
+  ibm-platform-navigator-instance:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-08-11T20:22:26.754346519Z"
+    description: A Helm chart for Kubernetes
+    digest: 30e873e860925418a830f9bedb2d9971b7bf18cb6c32d9fe5069fb59ebde1286
+    name: ibm-platform-navigator-instance
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-platform-navigator-instance-0.1.0/ibm-platform-navigator-instance-0.1.0.tgz
+    version: 0.1.0
   ibm-process-mining-operator:
   - apiVersion: v2
     appVersion: 1.0.0

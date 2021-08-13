@@ -3,6 +3,18 @@ entries:
   argocd-config:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-08-13T18:54:24.368330021Z"
+    description: Helm chart to create ArgoCD custom resources for projects and applications
+      with optional RBAC configuration to allow ArgoCD to create resources in other
+      namespaces
+    digest: a0d55cabb32cfd041c5acfa393ccd3cdcd93dd08406970cefd3646012c78288e
+    name: argocd-config
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/argocd-config-0.20.0/argocd-config-0.20.0.tgz
+    version: 0.20.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-08-11T17:02:23.856999843Z"
     description: Helm chart to create ArgoCD custom resources for projects and applications
       with optional RBAC configuration to allow ArgoCD to create resources in other
@@ -512,6 +524,17 @@ entries:
     urls:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/cloud-setup-0.1.0.tgz
     version: 0.1.0
+  console-link-configmap:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-08-13T18:54:24.499651595Z"
+    description: A Helm chart for Kubernetes
+    digest: 40d8ff64021a44cd95aad72f6ea41b9175cda4c18eaa26b80f5d0dcb8e38262a
+    name: console-link-configmap
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/console-link-configmap-0.1.0/console-link-configmap-0.1.0.tgz
+    version: 0.1.0
   console-link-cronjob:
   - apiVersion: v2
     appVersion: v0.1.0
@@ -952,6 +975,17 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/ibm-platform-navigator-instance-0.1.0/ibm-platform-navigator-instance-0.1.0.tgz
     version: 0.1.0
+  ibm-process-mining-instance:
+  - apiVersion: v2
+    appVersion: 1.11.1
+    created: "2021-08-13T18:54:24.629637935Z"
+    description: A Helm chart for Kubernetes
+    digest: 44926a16989949a78c37822b75ed4d789d41dda5930ff40e602e30ec7ddac3f9
+    name: ibm-process-mining-instance
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-process-mining-instance-1.0.1/ibm-process-mining-instance-1.0.1.tgz
+    version: 1.0.1
   ibm-process-mining-operator:
   - apiVersion: v2
     appVersion: 1.0.0

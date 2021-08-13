@@ -340,6 +340,16 @@ entries:
   argocd-hook-job:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-08-13T18:55:55.985097542Z"
+    description: A Helm chart for Kubernetes
+    digest: 4aeb169368228bdc0b5c2db1fa98f7b1900b7bd0b8c58c1eeac852f1485cdf55
+    name: argocd-hook-job
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/argocd-hook-job-0.1.4/argocd-hook-job-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-05-06T12:24:04.180676976Z"
     description: A Helm chart for Kubernetes
     digest: 64b0f8620b941576fdfb46e88b2c904d22e668900985916107df36f732e5f6f5

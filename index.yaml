@@ -548,6 +548,17 @@ entries:
   console-link-cronjob:
   - apiVersion: v2
     appVersion: v0.1.0
+    created: "2021-10-15T03:25:47.289644002Z"
+    description: A Helm chart to generate a cron job that watches Routes for annotations
+      and generates ConsoleLinks if they are present
+    digest: 9b92ca354ccd50d80cc31c75668969eaca5384072434bd7a0225548f04158717
+    name: console-link-cronjob
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/console-link-cronjob-0.5.1/console-link-cronjob-0.5.1.tgz
+    version: 0.5.1
+  - apiVersion: v2
+    appVersion: v0.1.0
     created: "2021-08-11T17:02:23.982362903Z"
     description: A Helm chart to generate a cron job that watches Routes for annotations
       and generates ConsoleLinks if they are present
@@ -557,6 +568,16 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/console-link-cronjob-0.4.0/console-link-cronjob-0.4.0.tgz
     version: 0.4.0
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2021-10-15T03:25:47.128025519Z"
+    description: A Helm chart to generate a cron job that adds all users to a group
+    digest: 9ec831c9dc0a254de2f170ac60ed9b2c23fd7ddc35605a99da0b79e2e3f4440d
+    name: console-link-cronjob
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/console-link-cronjob-0.2.0/console-link-cronjob-0.2.0.tgz
+    version: 0.2.0
   cp-platform-navigator:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -569,6 +590,15 @@ entries:
     - https://github.com/ibm-garage-cloud/toolkit-charts/releases/download/cp-platform-navigator-0.1.0/cp-platform-navigator-0.1.0.tgz
     version: 0.1.0
   developer-dashboard:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-10-15T03:25:47.434449538Z"
+    description: A Helm chart for Kubernetes
+    digest: 19e070f6ff525a2351f802c5245512f4c6e811e4c9426ca65323abd6218a74f6
+    name: developer-dashboard
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/developer-dashboard-1.4.0/developer-dashboard-1.4.0.tgz
+    version: 1.4.0
   - apiVersion: v1
     appVersion: "1.0"
     created: "2021-08-11T17:02:24.089901218Z"
@@ -751,6 +781,17 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/ibm-ace-operator-0.2.2/ibm-ace-operator-0.2.2.tgz
     version: 0.2.2
+  ibm-apic-instance:
+  - apiVersion: v2
+    appVersion: 10.0.3.0-ifix1
+    created: "2021-10-15T03:25:47.60002198Z"
+    description: A Helm chart for Kubernetes
+    digest: 5ef46af2fb1b1275838a0e940294379f0469d5da215beadf41d6e9f7da02b355
+    name: ibm-apic-instance
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-apic-instance-1.0.0/ibm-apic-instance-1.0.0.tgz
+    version: 1.0.0
   ibm-apic-operator:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -784,6 +825,17 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/ibm-assetrepository-operator-0.1.0/ibm-assetrepository-operator-0.1.0.tgz
     version: 0.1.0
+  ibm-automation-foundation-core-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-15T03:25:47.756795892Z"
+    description: A Helm chart for Kubernetes
+    digest: e2b5f77c528b58839dde03e1ade90ef526bc777a817c5adbf5fcc4fd0c799ca6
+    name: ibm-automation-foundation-core-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-automation-foundation-core-operator-0.1.1/ibm-automation-foundation-core-operator-0.1.1.tgz
+    version: 0.1.1
   ibm-catalogs:
   - apiVersion: v2
     appVersion: "1.0"
@@ -878,6 +930,17 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/ibm-cp-integration-base-0.1.0/ibm-cp-integration-base-0.1.0.tgz
     version: 0.1.0
+  ibm-cp4a-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-15T03:25:47.916827452Z"
+    description: A Helm chart for Kubernetes
+    digest: f2e0042e5062dfeca5fa4f340248be87cb9daa7374d1bb47808d243eaf8c8281
+    name: ibm-cp4a-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-cp4a-operator-0.1.0/ibm-cp4a-operator-0.1.0.tgz
+    version: 0.1.0
   ibm-cp4i-operators:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -899,6 +962,28 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/ibm-cp4i-operators-0.2.0/ibm-cp4i-operators-0.2.0.tgz
     version: 0.2.0
+  ibm-cpd-platform-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-15T03:25:48.073759459Z"
+    description: A Helm chart for Kubernetes
+    digest: c048f210d375861329c594773f9874299d64350f155abce91fd3f8f9cebeef50
+    name: ibm-cpd-platform-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-cpd-platform-operator-0.1.0/ibm-cpd-platform-operator-0.1.0.tgz
+    version: 0.1.0
+  ibm-cpd-scheduling-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-15T03:25:48.214794177Z"
+    description: A Helm chart for Kubernetes
+    digest: abd2558129cf00db5372a1147ba99765cf4aa6fd3485172e15cb713f53449f77
+    name: ibm-cpd-scheduling-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-cpd-scheduling-operator-0.1.1/ibm-cpd-scheduling-operator-0.1.1.tgz
+    version: 0.1.1
   ibm-datapower-operator:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -1314,6 +1399,18 @@ entries:
     urls:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/kiali-operator-0.1.0.tgz
     version: 0.1.0
+  namespace-rbac-cronjob:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2021-10-15T03:25:48.403052705Z"
+    description: A Helm chart to generate a cron job that watches Namespaces and grants
+      rbac permissions for the given service account
+    digest: d45a272f70cbecf5c19fb9d20062e5f76c1c072293f069c3b6b5e782ac6a8fe6
+    name: namespace-rbac-cronjob
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/namespace-rbac-cronjob-0.2.0/namespace-rbac-cronjob-0.2.0.tgz
+    version: 0.2.0
   nexus-operator:
   - apiVersion: v2
     appVersion: 1.17.0
@@ -1406,7 +1503,45 @@ entries:
     urls:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/ocp-route-0.1.0.tgz
     version: 0.1.0
+  ocp-subscription:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-10-15T03:25:48.558617803Z"
+    description: A Helm chart for Kubernetes
+    digest: d4d2bb51504fe9a82c8e5b74a25d8713bc5f86d4b7b6eb9a526f0e86fe0c41f0
+    name: ocp-subscription
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ocp-subscription-1.0.0/ocp-subscription-1.0.0.tgz
+    version: 1.0.0
+  ocp-userspaces-daemonset:
+  - apiVersion: v2
+    appVersion: v0.14
+    created: "2021-10-15T03:25:48.703612298Z"
+    dependencies:
+    - name: service-account
+      repository: https://charts.cloudnativetoolkit.dev/
+      version: 0.6.0
+    description: A chart to create a daemonset that will increase the max userspaces
+      limit for
+    digest: fb6e1d27f6fc2b85da6bef87d7f6583063ad048b7363e0cb5176bb53625e2c57
+    name: ocp-userspaces-daemonset
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ocp-userspaces-daemonset-0.1.1/ocp-userspaces-daemonset-0.1.1.tgz
+    version: 0.1.1
   ocs-operator:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-10-15T03:25:48.878483068Z"
+    description: A Helm chart for deploying infrastrucure reference architecture to
+      OpenShift 4.x clusters
+    digest: a76f4e3d570f538a11872ec3da8b547e6a58a786c02854c92bd0752b69c9eb12
+    name: ocs-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ocs-operator-0.2.4/ocs-operator-0.2.4.tgz
+    version: 0.2.4
   - apiVersion: v2
     appVersion: 0.1.0
     created: "2021-05-31T18:24:59.489088134Z"
@@ -1450,6 +1585,17 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/openshift-gitops-0.4.0/openshift-gitops-0.4.0.tgz
     version: 0.4.0
+  openshift-gitops-instance:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-15T03:25:49.02128202Z"
+    description: A Helm chart for Kubernetes
+    digest: 3332d28e47561fc492337ab1b6ba8d39225cbb3e1b398fd4d79541337abc7e45
+    name: openshift-gitops-instance
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/openshift-gitops-instance-0.1.0/openshift-gitops-instance-0.1.0.tgz
+    version: 0.1.0
   openshift-serverless:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -1475,6 +1621,17 @@ entries:
   refarch-infraconfig:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2021-10-15T03:25:49.21949514Z"
+    description: A Helm chart for deploying infrastrucure reference architecture to
+      OpenShift 4.x clusters
+    digest: 57eac414bf0a5ac1630cce54d1ab9e18dc9988305e87668f3f755dcb2c92ff53
+    name: refarch-infraconfig
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/refarch-infraconfig-0.2.2/refarch-infraconfig-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2021-05-31T18:24:59.586818618Z"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
@@ -1496,6 +1653,17 @@ entries:
     - https://github.com/ibm-garage-cloud/toolkit-charts/releases/download/refarch-infraconfig-0.1.0/refarch-infraconfig-0.1.0.tgz
     version: 0.1.0
   refarch-machinesets:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-10-15T03:25:49.369639634Z"
+    description: A Helm chart for deploying infrastrucure reference architecture to
+      OpenShift 4.x clusters
+    digest: 0a24bf6c120357c0f8a790a0f20c7315918ac75fdc5d1e1988c77fa1316f8626
+    name: refarch-machinesets
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/refarch-machinesets-0.2.1/refarch-machinesets-0.2.1.tgz
+    version: 0.2.1
   - apiVersion: v2
     appVersion: 0.1.0
     created: "2021-05-31T18:24:59.683875197Z"
@@ -1835,6 +2003,16 @@ entries:
     - https://github.com/hollisc/toolkit-charts/releases/download/slack-notifications-0.1.7/slack-notifications-0.1.7.tgz
     version: 0.1.7
   starter-kit:
+  - apiVersion: v2
+    appVersion: 0.6.0
+    created: "2021-10-15T03:25:49.509818035Z"
+    description: A Helm chart for Kubernetes
+    digest: 0804fc0b1b6da9f3ecad6bcd7c8a94ddca4864da3280c1c8850472669c538c41
+    name: starter-kit
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/starter-kit-0.6.2/starter-kit-0.6.2.tgz
+    version: 0.6.2
   - apiVersion: v2
     appVersion: 0.6.0
     created: "2021-03-03T04:09:05.756504836Z"

@@ -781,6 +781,28 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/ibm-ace-operator-0.2.2/ibm-ace-operator-0.2.2.tgz
     version: 0.2.2
+  ibm-apic-a7s-instance:
+  - apiVersion: v2
+    appVersion: 10.0.3.0-ifix1
+    created: "2021-10-19T19:10:13.238193823Z"
+    description: A Helm chart for Kubernetes
+    digest: c92849e72c2f0689dfd448d6de03061447e99a42daea0c5b4013df46ff85ac20
+    name: ibm-apic-a7s-instance
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-apic-a7s-instance-1.0.0/ibm-apic-a7s-instance-1.0.0.tgz
+    version: 1.0.0
+  ibm-apic-gtw-instance:
+  - apiVersion: v2
+    appVersion: 10.0.3.0-ifix1
+    created: "2021-10-19T19:10:13.385809128Z"
+    description: A Helm chart for Kubernetes
+    digest: 0881e9a5193d1525e73bbd7e81456d3d3af941dd9ae28e7f5a8f6f4cd0922ddc
+    name: ibm-apic-gtw-instance
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-apic-gtw-instance-1.0.0/ibm-apic-gtw-instance-1.0.0.tgz
+    version: 1.0.0
   ibm-apic-instance:
   - apiVersion: v2
     appVersion: 10.0.3.0-ifix1
@@ -791,6 +813,17 @@ entries:
     type: application
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/ibm-apic-instance-1.0.0/ibm-apic-instance-1.0.0.tgz
+    version: 1.0.0
+  ibm-apic-mgmt-instance:
+  - apiVersion: v2
+    appVersion: 10.0.3.0-ifix1
+    created: "2021-10-19T19:10:13.527567246Z"
+    description: A Helm chart for Kubernetes
+    digest: df004b4484708057055ef8cc165834ebe66f8a80edc77af6fa75acb2e7fea4cd
+    name: ibm-apic-mgmt-instance
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-apic-mgmt-instance-1.0.0/ibm-apic-mgmt-instance-1.0.0.tgz
     version: 1.0.0
   ibm-apic-operator:
   - apiVersion: v2
@@ -803,6 +836,17 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/ibm-apic-operator-0.1.0/ibm-apic-operator-0.1.0.tgz
     version: 0.1.0
+  ibm-apic-ptl-instance:
+  - apiVersion: v2
+    appVersion: 10.0.3.0-ifix1
+    created: "2021-10-19T19:10:13.670807342Z"
+    description: A Helm chart for Kubernetes
+    digest: 946dcb3e59b2e15eed5058ca44fcf6b5ec457b0367ba2938a3dad93b3e3d91fd
+    name: ibm-apic-ptl-instance
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ibm-apic-ptl-instance-1.0.0/ibm-apic-ptl-instance-1.0.0.tgz
+    version: 1.0.0
   ibm-aspera-operator:
   - apiVersion: v2
     appVersion: 1.16.0

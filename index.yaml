@@ -399,6 +399,18 @@ entries:
     urls:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/argocd-operator-0.1.0.tgz
     version: 0.1.0
+  baas-supplemental:
+  - apiVersion: v2
+    appVersion: 10.1.8.2
+    created: "2021-10-20T03:11:52.964345537Z"
+    description: Supplemental objects for Spectrum Protect Plus - Container Backup
+      Support
+    digest: 2ab65b9c9b7bd6676073add51d5b4ef7dff2fa99aabf17244668b57315e75793
+    name: baas-supplemental
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/baas-supplemental-0.1.0/baas-supplemental-0.1.0.tgz
+    version: 0.1.0
   cloud-setup:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -1506,6 +1518,27 @@ entries:
     urls:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/nexus-operator-0.1.0.tgz
     version: 0.1.0
+  oadp-instance:
+  - apiVersion: v2
+    created: "2021-10-20T03:11:53.072023939Z"
+    description: A Helm chart for Kubernetes
+    digest: a52695e2f2dffa47d0f11bdc0772fec95d8aa189dfeb8b97927945055b65339d
+    name: oadp-instance
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/oadp-instance-0.1.0/oadp-instance-0.1.0.tgz
+    version: 0.1.0
+  oadp-operator:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-10-20T03:11:53.186095013Z"
+    description: A Helm chart for Kubernetes
+    digest: 411db201e3ce2703f292d205173043611c52e552e2a36fcf4348abefb1fb6b5e
+    name: oadp-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/oadp-operator-0.1.0/oadp-operator-0.1.0.tgz
+    version: 0.1.0
   ocp-route:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -2046,6 +2079,39 @@ entries:
     urls:
     - https://github.com/hollisc/toolkit-charts/releases/download/slack-notifications-0.1.7/slack-notifications-0.1.7.tgz
     version: 0.1.7
+  spp-catalog:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-10-20T03:11:53.288330054Z"
+    description: A Helm chart for Kubernetes
+    digest: 6a7098b83c7e2bbc452399a9b034afd8703af662febd42d7af8b2cc4e50044e8
+    name: spp-catalog
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/spp-catalog-0.1/spp-catalog-0.1.tgz
+    version: "0.1"
+  spp-instance:
+  - apiVersion: v2
+    appVersion: 10.1.8.2
+    created: "2021-10-20T03:11:53.417232193Z"
+    description: A Helm chart for Kubernetes
+    digest: 2437d05b1f37418ac7df830b873a383e12c0fcccb66193aea6b8cb107710fa85
+    name: spp-instance
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/spp-instance-0.1.0/spp-instance-0.1.0.tgz
+    version: 0.1.0
+  spp-operator:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-10-20T03:11:53.541989886Z"
+    description: A Helm chart for Kubernetes
+    digest: d60712174f097b39b8975a30b6c3b79dcec17162715bb14364cb530a06102a76
+    name: spp-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/spp-operator-0.1.0/spp-operator-0.1.0.tgz
+    version: 0.1.0
   starter-kit:
   - apiVersion: v2
     appVersion: 0.6.0

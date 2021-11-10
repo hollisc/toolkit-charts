@@ -399,6 +399,17 @@ entries:
     urls:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/argocd-operator-0.1.0.tgz
     version: 0.1.0
+  assign-group-cronjob:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2021-11-10T05:33:41.849811101Z"
+    description: A Helm chart to generate a cron job that adds all users to a group
+    digest: 57f84e0f0182ffb01677329d1a84accde9e9caf9551bd6376d2e19d944011223
+    name: assign-group-cronjob
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/assign-group-cronjob-0.2.1/assign-group-cronjob-0.2.1.tgz
+    version: 0.2.1
   baas-supplemental:
   - apiVersion: v2
     appVersion: 10.1.8.2
@@ -604,6 +615,15 @@ entries:
   developer-dashboard:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2021-11-10T05:33:42.000666896Z"
+    description: A Helm chart for Kubernetes
+    digest: 4c6685093f6b33b0f2d4c33be78510972e99fd77f5433006204fc822bb0b45da
+    name: developer-dashboard
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/developer-dashboard-1.4.1/developer-dashboard-1.4.1.tgz
+    version: 1.4.1
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2021-10-15T03:25:47.434449538Z"
     description: A Helm chart for Kubernetes
     digest: 19e070f6ff525a2351f802c5245512f4c6e811e4c9426ca65323abd6218a74f6
@@ -770,6 +790,28 @@ entries:
     type: application
     urls:
     - https://ibm-garage-cloud.github.io/toolkit-charts/stable/elasticsearch-operator-0.1.0.tgz
+    version: 0.1.0
+  gitea-instance:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-10T05:33:42.162501745Z"
+    description: A Helm chart for Kubernetes
+    digest: a6890dda5adc7914acc67e78b179857b8a1bf384a8938c20cc8c0298cb15805c
+    name: gitea-instance
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/gitea-instance-0.1.2/gitea-instance-0.1.2.tgz
+    version: 0.1.2
+  gitea-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-10T05:33:42.409701872Z"
+    description: A Helm chart for Kubernetes
+    digest: 8209f0b499a319aca01df7eb6bc393aae8f15cd14525b4a7fe6d49fc95cbc9e2
+    name: gitea-operator
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/gitea-operator-0.1.0/gitea-operator-0.1.0.tgz
     version: 0.1.0
   grafana-operator:
   - apiVersion: v2
@@ -1542,6 +1584,16 @@ entries:
   ocp-route:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-11-10T05:33:42.594058543Z"
+    description: A Helm chart for Kubernetes
+    digest: 371a7149697790c6d4ea9a5501087d12d4230b80e04a860985d82e14dcbd9a06
+    name: ocp-route
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/ocp-route-0.5.0/ocp-route-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-08-11T17:02:24.585794701Z"
     description: A Helm chart for Kubernetes
     digest: bfe44ca2279aef8a6b89ff568b868ad93143db2b3e2cd4d4999d9500ccbbdd7d
@@ -1687,6 +1739,16 @@ entries:
   pact-broker:
   - apiVersion: v2
     appVersion: 2.50.1-1
+    created: "2021-11-10T05:33:42.733977985Z"
+    description: A Helm chart for Kubernetes
+    digest: ad7445053b8951df55c4371ed65bec4db75b1ff93fbb376c9e56fdec86f2a3e2
+    name: pact-broker
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/pact-broker-0.2.1/pact-broker-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 2.50.1-1
     created: "2021-08-11T17:02:24.963636095Z"
     description: A Helm chart for Kubernetes
     digest: de167d91f7b13f9e495343a71eb6995b573dca96be1f92875ccf28ea39a454d6
@@ -1730,6 +1792,17 @@ entries:
     - https://github.com/ibm-garage-cloud/toolkit-charts/releases/download/refarch-infraconfig-0.1.0/refarch-infraconfig-0.1.0.tgz
     version: 0.1.0
   refarch-machinesets:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-11-10T05:33:42.870836155Z"
+    description: A Helm chart for deploying infrastrucure reference architecture to
+      OpenShift 4.x clusters
+    digest: bb533715c3faf682dbc8cd54a504d4e6ba856421a7223031b0406a7d3e5be943
+    name: refarch-machinesets
+    type: application
+    urls:
+    - https://github.com/hollisc/toolkit-charts/releases/download/refarch-machinesets-0.3.1/refarch-machinesets-0.3.1.tgz
+    version: 0.3.1
   - apiVersion: v2
     appVersion: 0.1.0
     created: "2021-10-15T03:25:49.369639634Z"

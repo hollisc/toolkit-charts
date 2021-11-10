@@ -189,3 +189,23 @@ MachineSet AWS Check Image
 {{- end -}}
 {{- end -}}
 
+
+{{- define "machineset.azure.resourceGroup" -}}
+{{- $resourceGroup := printf "%s-rg" $.Values.infrastructureId -}}
+{{ default $resourceGroup $.Values.cloud.resourceGroup }}
+{{- end -}}
+
+{{- define "machineset.azure.networkResourceGroup" -}}
+{{- $networkResourceGroup := printf "%s-rg" $.Values.infrastructureId -}}
+{{ default $networkResourceGroup $.Values.cloud.networkResourceGroup }}
+{{- end -}}
+
+{{- define "machineset.azure.workerSubnet" -}}
+{{- $workerSubnet := printf "%s-worker-subnet" $.Values.infrastructureId -}}
+{{ default $workerSubnet $.Values.cloud.workerSubnet }}
+{{- end -}}
+
+{{- define "machineset.azure.virtualNetwork" -}}
+{{- $virtualNetwork := printf "%s-vnet" $.Values.infrastructureId -}}
+{{ default $virtualNetwork $.Values.cloud.virtualNetwork }}
+{{- end -}}
